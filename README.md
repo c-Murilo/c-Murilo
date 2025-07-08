@@ -20,7 +20,6 @@
 </div>
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?c-Murilo=anuraghazra&hide_progress=true)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c-Murilo&layout=compact)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=c-Murilo&hide=contribs,prs,&theme=dracula)
 
