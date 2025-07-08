@@ -1,5 +1,5 @@
 <h2 align="left">Me chamo Murilo</h2>
-<div style="background-color: black; color: white;">
+
 
 ###
 
@@ -20,7 +20,7 @@
 </div>
 
 
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?c-Murilo=anuraghazra&hide_progress=true)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=c-Murilo&hide=contribs,prs,&theme=dracula)
 
