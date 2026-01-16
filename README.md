@@ -16,7 +16,4 @@
 
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c-Murilo&layout=compact)
-<br>
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=c-Murilo&hide=contribs,prs,&theme=dracula)
 
