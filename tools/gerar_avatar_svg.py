@@ -19,7 +19,7 @@ from PIL import Image, ImageOps
 
 USUARIO = "c-Murilo"
 RAIZ = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-SAIDA = os.path.join(RAIZ, "assets", "avatar-ascii.svg")
+SAIDA = os.path.join(RAIZ, "assets", "ascii-render.svg")
 
 # ---- ajustes ---------------------------------------------------------------
 COLS = 80                        # colunas de caractere
@@ -60,20 +60,40 @@ def gerar(img):
     W = round(COLS * cw + mx * 2)
     H = round(rows * lh + my + 42)
 
+    # Nada de <mask>/<clipPath>: o proxy de imagens do GitHub remove esses
+    # elementos e o conteudo some. A revelacao e feita por opacidade, em
+    # blocos de BLOCO caracteres, com atraso crescente (efeito de digitacao).
+    def cor_linha(k):
+        pares = [(0.0,(0xa7,0x8b,0xfa)),(0.45,(0x22,0xd3,0xee)),(1.0,(0x7c,0x3a,0xed))]
+        for i in range(len(pares)-1):
+            a,ca = pares[i]; b,cb = pares[i+1]
+            if a <= k <= b:
+                f = 0 if b==a else (k-a)/(b-a)
+                return "#%02x%02x%02x" % tuple(round(ca[j]+(cb[j]-ca[j])*f) for j in range(3))
+        return "#22d3ee"
+
+    BLOCO = 8
+    LINHA_DUR = 0.5                          # tempo pra "digitar" uma linha
     n = len(RAMPA) - 1
-    linhas, mascara = [], []
+    linhas = []
     for y in range(rows):
         txt = "".join(RAMPA[min(n, int(px[x, y] / 255 * n + 0.5))] for x in range(COLS))
         if not txt.strip():
             continue
-        atraso = round(y / rows * DIGITACAO, 2)
-        linhas.append(f'<text x="{mx}" y="{my + y * lh:.0f}">{esc(txt.rstrip())}</text>')
-        mascara.append(
-            f'<rect y="{my + y * lh - lh:.0f}" x="{mx}" width="{COLS * cw:.0f}" '
-            f'height="{lh:.0f}" fill="#fff" style="animation-delay:{atraso}s"/>'
-        )
+        base = y / rows * DIGITACAO
+        for c in range(0, COLS, BLOCO):
+            pedaco = txt[c:c + BLOCO].rstrip()
+            if not pedaco:
+                continue
+            atraso = round(base + (c / COLS) * LINHA_DUR, 2)
+            linhas.append(
+                f'<text x="{mx + c * cw:.1f}" y="{my + y * lh:.0f}" fill="{cor_linha(y/max(1,rows-1))}">{esc(pedaco)}'
+                f'<animate attributeName="opacity" values="0;1;1;0" '
+                f'keyTimes="0;0.035;0.93;1" dur="{CICLO}s" begin="{atraso}s" '
+                f'repeatCount="indefinite"/></text>'
+            )
 
-    fim = DIGITACAO / CICLO * 100
+    fim = DIGITACAO + LINHA_DUR
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"
      viewBox="0 0 {W} {H}" role="img" aria-label="Foto de {USUARIO} renderizada em ASCII">
@@ -91,35 +111,24 @@ def gerar(img):
     <stop offset="80%" stop-color="#22d3ee" stop-opacity=".18"/>
     <stop offset="100%" stop-color="#e0fbff" stop-opacity=".55"/>
   </linearGradient>
-  <mask id="m">{"".join(mascara)}</mask>
 </defs>
-<style>
-text{{font-family:"SFMono-Regular","JetBrains Mono",Consolas,"Courier New",monospace;
-font-size:{FONTE}px;letter-spacing:0;white-space:pre}}
-#m rect{{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);
-animation:d {CICLO}s cubic-bezier(.2,.8,.3,1) infinite}}
-@keyframes d{{0%{{transform:scaleX(0)}}{fim:.0f}%{{transform:scaleX(1)}}
-92%{{transform:scaleX(1)}}99%,100%{{transform:scaleX(0)}}}}
-.cur{{animation:p .9s steps(2,end) infinite}}
-@keyframes p{{0%,50%{{opacity:1}}51%,100%{{opacity:0}}}}
-.sc{{animation:v {CICLO}s cubic-bezier(.2,.8,.3,1) infinite}}
-@keyframes v{{0%{{transform:translateY(-70px);opacity:0}}4%{{opacity:1}}
-{fim:.0f}%{{transform:translateY({H}px);opacity:1}}{min(fim+3,98):.0f}%,100%{{opacity:0;transform:translateY({H}px)}}}}
-.pb{{transform-box:fill-box;transform-origin:left center;animation:e {CICLO}s linear infinite}}
-@keyframes e{{0%{{transform:scaleX(0)}}{fim:.0f}%,100%{{transform:scaleX(1)}}}}
-</style>
 <rect width="{W}" height="{H}" rx="14" fill="{BG}"/>
 <rect x=".8" y=".8" width="{W-1.6}" height="{H-1.6}" rx="13.5" fill="none" stroke="url(#b)" stroke-width="1.5" opacity=".8"/>
 <circle cx="22" cy="22" r="4.5" fill="#f472b6"/><circle cx="38" cy="22" r="4.5" fill="#facc15"/><circle cx="54" cy="22" r="4.5" fill="#22d3ee"/>
-<text x="72" y="26" fill="#64748b" font-size="11">murilo@github:~$ render --ascii avatar.png<tspan class="cur" fill="#22d3ee">_</tspan></text>
+<text x="72" y="26" fill="#64748b" font-family="monospace" font-size="11">murilo@github:~$ render --ascii avatar.png<tspan fill="#22d3ee">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
 <line x1="8" y1="34" x2="{W-8}" y2="34" stroke="#1e293b"/>
-<g mask="url(#m)" fill="url(#t)">
+<g font-family="monospace" font-size="{FONTE}">
 {chr(10).join(linhas)}
 </g>
-<rect class="sc" x="8" y="{my-16}" width="{W-16}" height="64" fill="url(#s)"/>
-<text x="24" y="{H-30}" fill="#22d3ee" font-size="10" opacity=".8">{COLS} x {rows} chars</text>
+<rect x="8" y="{my-16}" width="{W-16}" height="64" fill="url(#s)" opacity="0">
+  <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;{fim/CICLO:.3f};{min(fim/CICLO+0.03,0.99):.3f};1" dur="{CICLO}s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0,-70;0,{H};0,{H}" keyTimes="0;{fim/CICLO:.3f};1" dur="{CICLO}s" repeatCount="indefinite"/>
+</rect>
+<text x="24" y="{H-30}" fill="#22d3ee" font-family="monospace" font-size="10" opacity=".8">{COLS} x {rows} chars</text>
 <rect x="24" y="{H-22}" width="{W-48}" height="4" rx="2" fill="#111827"/>
-<rect class="pb" x="24" y="{H-22}" width="{W-48}" height="4" rx="2" fill="url(#b)"/>
+<rect x="24" y="{H-22}" width="0" height="4" rx="2" fill="url(#b)">
+  <animate attributeName="width" values="0;{W-48};{W-48}" keyTimes="0;{fim/CICLO:.3f};1" dur="{CICLO}s" repeatCount="indefinite"/>
+</rect>
 </svg>
 '''
 
