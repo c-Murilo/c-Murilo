@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="682"
+     viewBox="0 0 576 682" role="img" aria-label="Foto de c-Murilo renderizada em ASCII">
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#7c3aed"/><stop offset="55%" stop-color="#22d3ee"/>
+    <stop offset="100%" stop-color="#f472b6"/>
+  </linearGradient>
+  <linearGradient id="t" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0%" stop-color="#a78bfa"/><stop offset="45%" stop-color="#22d3ee"/>
+    <stop offset="100%" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="80%" stop-color="#22d3ee" stop-opacity=".18"/>
+    <stop offset="100%" stop-color="#e0fbff" stop-opacity=".55"/>
+  </linearGradient>
+  <mask id="m"><rect y="35" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.0s"/><rect y="46" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.06s"/><rect y="57" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.11s"/><rect y="68" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.17s"/><rect y="79" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.22s"/><rect y="90" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.28s"/><rect y="101" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.33s"/><rect y="112" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.39s"/><rect y="123" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.44s"/><rect y="134" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.5s"/><rect y="145" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.56s"/><rect y="156" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.61s"/><rect y="167" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.67s"/><rect y="178" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.72s"/><rect y="189" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.78s"/><rect y="200" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.83s"/><rect y="211" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.89s"/><rect y="222" x="24" width="528" height="11" fill="#fff" style="animation-delay:0.94s"/><rect y="233" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.0s"/><rect y="244" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.06s"/><rect y="255" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.11s"/><rect y="266" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.17s"/><rect y="277" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.22s"/><rect y="288" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.28s"/><rect y="299" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.33s"/><rect y="310" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.39s"/><rect y="321" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.44s"/><rect y="332" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.5s"/><rect y="343" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.56s"/><rect y="354" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.61s"/><rect y="365" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.67s"/><rect y="376" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.72s"/><rect y="387" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.78s"/><rect y="398" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.83s"/><rect y="409" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.89s"/><rect y="420" x="24" width="528" height="11" fill="#fff" style="animation-delay:1.94s"/><rect y="431" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.0s"/><rect y="442" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.06s"/><rect y="453" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.11s"/><rect y="464" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.17s"/><rect y="475" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.22s"/><rect y="486" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.28s"/><rect y="497" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.33s"/><rect y="508" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.39s"/><rect y="519" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.44s"/><rect y="530" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.5s"/><rect y="541" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.56s"/><rect y="552" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.61s"/><rect y="563" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.67s"/><rect y="574" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.72s"/><rect y="585" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.78s"/><rect y="596" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.83s"/><rect y="607" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.89s"/><rect y="618" x="24" width="528" height="11" fill="#fff" style="animation-delay:2.94s"/></mask>
+</defs>
+<style>
+text{font-family:"SFMono-Regular","JetBrains Mono",Consolas,"Courier New",monospace;
+font-size:11.0px;letter-spacing:0;white-space:pre}
+#m rect{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);
+animation:d 8.0s cubic-bezier(.2,.8,.3,1) infinite}
+@keyframes d{0%{transform:scaleX(0)}38%{transform:scaleX(1)}
+92%{transform:scaleX(1)}99%,100%{transform:scaleX(0)}}
+.cur{animation:p .9s steps(2,end) infinite}
+@keyframes p{0%,50%{opacity:1}51%,100%{opacity:0}}
+.sc{animation:v 8.0s cubic-bezier(.2,.8,.3,1) infinite}
+@keyframes v{0%{transform:translateY(-70px);opacity:0}4%{opacity:1}
+38%{transform:translateY(682px);opacity:1}40%,100%{opacity:0;transform:translateY(682px)}}
+.pb{transform-box:fill-box;transform-origin:left center;animation:e 8.0s linear infinite}
+@keyframes e{0%{transform:scaleX(0)}38%,100%{transform:scaleX(1)}}
+</style>
+<rect width="576" height="682" rx="14" fill="#05070f"/>
+<rect x=".8" y=".8" width="574.4" height="680.4" rx="13.5" fill="none" stroke="url(#b)" stroke-width="1.5" opacity=".8"/>
+<circle cx="22" cy="22" r="4.5" fill="#f472b6"/><circle cx="38" cy="22" r="4.5" fill="#facc15"/><circle cx="54" cy="22" r="4.5" fill="#22d3ee"/>
+<text x="72" y="26" fill="#64748b" font-size="11">murilo@github:~$ render --ascii avatar.png<tspan class="cur" fill="#22d3ee">_</tspan></text>
+<line x1="8" y1="34" x2="568" y2="34" stroke="#1e293b"/>
+<g mask="url(#m)" fill="url(#t)">
+<text x="24" y="46">:-:-----:---:::::--:::::::::::::::::::::::-:--------=+====#%%@@%@@@@@@%%####xxxo</text>
+<text x="24" y="57">*------------:::::::::::::::::::::::::::-::-:------------=**oxxxx###%%%%%###xxxx</text>
+<text x="24" y="68">@=-=---------:::::::::::::::::-=+=---------:--------:*#x========+++****oooxooooo</text>
+<text x="24" y="79">=--=========-:::::::::::::::::-=+=---------:--:------%@@+-===++++++++***********</text>
+<text x="24" y="90">::-----------:-:-:-----:::---:----===-===----------:-#%%=-=======++++***********</text>
+<text x="24" y="101">-:::::::::::::::::::::::::::----============-==---::-+**=-=========+++++*++**+++</text>
+<text x="24" y="112">::::::::::::::::::::::::::::-=======-==+==----+**o+::+*=--===========+++++++++++</text>
+<text x="24" y="123">::::::::::::::::::::---::::::::-:---==---------+o##x+o#---=---========++++++++++</text>
+<text x="24" y="134">:::::::::::::--::::::-::::::::::::-----------::=**ox*x#------============+==+===</text>
+<text x="24" y="145">:::::::::::::--::::::::::::::::::==---:::::---::-=+*++**--------================</text>
+<text x="24" y="156">:::::::::::::::-=::::::::::::::::--::==--::::::::-++++=++-----------=--=========</text>
+<text x="24" y="167">::::::::::::::-ox-::::::::::::::::--=*xxxoo*+=::::-=--++*---------------=---==-=</text>
+<text x="24" y="178">:::::::::::::::::-=::::::::::::::.=+-:=xx+=-=+++=--::-:==-----------------------</text>
+<text x="24" y="189">::::::::::::::-==#@=:::::--:::::-:*x++*##*===++o#xx-::--------------------------</text>
+<text x="24" y="200">::::::::::::::=o+++:-+:::::::::::-%%#%@@%%#xxxx#%%#-:====:=---------------------</text>
+<text x="24" y="211">::::::::::::::#@x:::--::-=::::::.=@xxooox#x%@@@@%%x+oxx%%*:--:------------------</text>
+<text x="24" y="222">:::::::::::::-@@x:::::::-+-:::::.*#*oo++*#xo#%%%####x#%@@@-:--:--------=--------</text>
+<text x="24" y="233">:::::::::::::=@@o::=-::::::::::::*%o+xxxoo*+xx#%%##@%%%@#x=:---:::::::::-------:</text>
+<text x="24" y="244">:::::::::::::+@@*:-*=::::::::::::-x%xoooxxx#xx###*+#%@@x*x=:--:-::::::::::::::--</text>
+<text x="24" y="255">:::::::::::::*@@+:-+-:::::::::::::=%#xox#%%xxo***+*#%%@@%@@=::::::::::-:::::--::</text>
+<text x="24" y="266">:::::::::::::o@@+:-=:::::::::::::::*xx###xo*+==+oxxx###%%x*=::::::-:-:-:-:=*#xxx</text>
+<text x="24" y="277">:::::::::::::o@@-:--:::::::::::::::oo=-------=*x#xoox##x#+.:::::::-----::+%#+*o*</text>
+<text x="24" y="288">:::::::::::::=x*::::::::::::::::::*%#x*---==+*xxxx*+**oo+-::::::--------+%%++ooo</text>
+<text x="24" y="299">::::::::::::::::::=-:::::::::::::-x###xoooooxxxxx%#=--=*=:::::::-------*#%@#xoo+</text>
+<text x="24" y="310">:::::::::::::::-::=-:::::::::::::+o#xxooooox##xox%%---::::::::::-----:=xo*+=::--</text>
+<text x="24" y="321">:::::::::::::::-:--:-::::::::::.-=+#xoo**ooxxxxo%@=:::--:::::::-:-:::::---:::::.</text>
+<text x="24" y="332">::::::::::::::--::::::::::::::::+::*xx****oxoox##-.::::----::::----:::::::::::ox</text>
+<text x="24" y="343">::::::::::::::--::::::::::::::.==:::-*o**oxxoo+o-.::::::::---::::-:::::::::::=%@</text>
+<text x="24" y="354">:::::::::::---:::::::::::::::::+::::::--====-:+=:::::::::--------:::::::::::=@@@</text>
+<text x="24" y="365">::::::::.:::::::::::::::::::::-+::::::::::::.=+:::::::::::::------::::::::::*@@%</text>
+<text x="24" y="376">::::::::::::::::::::::::::::::+=.:::::::::::-*::::::::::::::::::---:::::::::o@%#</text>
+<text x="24" y="387">:::::::::::::::::::::::::::::.*-::::::::::::*-::::::::::::::::::::::::::::::x@%%</text>
+<text x="24" y="398">::::::::::::::::::::::::::::::+::::::::::::+-.:::::::::::::::::::::-::::::::#@@#</text>
+<text x="24" y="409">::::--:::::::::::::::::::::::-+.:::::::::.+=.::::::::::::::::::::::::::::-:-%@@@</text>
+<text x="24" y="420">::::o*:::::::::::::::::::::::=+.:::::::::-*:::::::::::::::::::::::::::::--.=@@@@</text>
+<text x="24" y="431">::::o+:::::::::::::::::::::::==::::::::::*-:::::::::::::::::::::::::::::::.+@%@#</text>
+<text x="24" y="442">::::x=:::::::::::::::::::::::==:::::::::+=::::::::::::::::::::::::::::::::.*@%##</text>
+<text x="24" y="453">:::-o=:::::::::::::::::::::::-+.::::::.=+.::::::=::::::::::::::::::::::::::o@@@@</text>
+<text x="24" y="464">:::=o-::::::::::::::::::::::::+::::::::*::::::-#@#-::::::::::::::::::::::::+ooxx</text>
+<text x="24" y="475">:::+o:::::::::::::::::::::::::+:::::::+-::::::-x#o::::::::::::::::::-:::::::.:..</text>
+<text x="24" y="486">:::++:-+-::::::::::::::::::::.+-.::..==::::::::.::::::::::::::::::::-:::::::::::</text>
+<text x="24" y="497">:::+=.+#o=:::--::::::::::::::*oo+++++o+-::::::::::::::::::::::::::::::::::::::::</text>
+<text x="24" y="508">:::*=:ox+--::-*:::::::::::::-xoxxxoxxox=:::::::::::::::::::::::::::::-:..:::::::</text>
+<text x="24" y="519">::-o-:xo*=--==+:::::::::::::-ooxxox#xoo-::::::::::::::::::::::::::::::*+=--::::.</text>
+<text x="24" y="530">::-*:-xo*=-=+++:::::::::::::=ooxxox##oo-::::::::::::::::::::::::::::::x%%%%%%%##</text>
+<text x="24" y="541">:::::+xo*===+++:::::::::::::=o*xxxxxooo::::::::::::::::::::::::::::::::----==+**</text>
+<text x="24" y="552">:::::+o*+======:::::::::::::+ooxxxxxxo*:::::::::::::::::::::::::::::::::::...:..</text>
+<text x="24" y="563">:::::+o*+==--==:::::::::::::+o*****ooo*:::::::::::::::::::::::::::::::::::::::::</text>
+<text x="24" y="574">:::::=o*++---=-:::::::::::::oxoooooo*o+:::::::::::::::::::::::-:-:::--::::::::::</text>
+<text x="24" y="585">:::::-o*+=---=::::::::::::::%@@@@@@@@@x::::::::::::::::::::::::-==-:--::::::::::</text>
+<text x="24" y="596">::::::**+=--=-::::::::::::::+**oooxxx#*.:::::::::::::::::::::--+++=--:::::::::::</text>
+<text x="24" y="607">::::::+o*=--=-::::::::::::::.........:::::::::::::::::::::::-+*oo*=--:::::::::::</text>
+<text x="24" y="618">::::::=o*=-==::::::::::::::::::::::::::::::::::::::::::::::-*oxxo*=--::::::::::-</text>
+<text x="24" y="629">::::::-o+=-==:::::::::::::::::::::::::::::::::::::::::::::-+oxxxo+--::::::::::-=</text>
+</g>
+<rect class="sc" x="8" y="30" width="560" height="64" fill="url(#s)"/>
+<text x="24" y="652" fill="#22d3ee" font-size="10" opacity=".8">80 x 54 chars</text>
+<rect x="24" y="660" width="528" height="4" rx="2" fill="#111827"/>
+<rect class="pb" x="24" y="660" width="528" height="4" rx="2" fill="url(#b)"/>
+</svg>
