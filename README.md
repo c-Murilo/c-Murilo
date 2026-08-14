@@ -8,10 +8,6 @@
 
 <img src="./assets/ascii-render.svg" width="540" alt="Foto renderizada em ASCII" />
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=22D3EE&center=true&vCenter=true&width=520&lines=%3E+carregando+perfil...;%3E+Python+%2F+JavaScript+%2F+TypeScript;%3E+an%C3%A1lise+de+dados+%26+automa%C3%A7%C3%A3o;%3E+bem-vindo(a)+ao+meu+GitHub+%F0%9F%91%8B" alt="" />
-
 <br/><br/>
 
 <a href="https://github.com/c-Murilo?tab=followers"><img src="https://img.shields.io/github/followers/c-Murilo?style=for-the-badge&color=7c3aed&labelColor=05070f&logo=github&logoColor=white" alt="" /></a>
