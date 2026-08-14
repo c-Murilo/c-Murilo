@@ -79,18 +79,9 @@ foco_2026: dados, automação e web bem feita
 
 <div align="center">
 
-## `📊 números`
+## `📈 atividade`
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=c-Murilo&show_icons=true&hide_border=true&bg_color=05070f&title_color=22d3ee&icon_color=f472b6&text_color=c9d1d9&ring_color=7c3aed&include_all_commits=true&count_private=true" alt="" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=c-Murilo&layout=compact&hide_border=true&bg_color=05070f&title_color=22d3ee&text_color=c9d1d9&langs_count=8" alt="" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=c-Murilo&hide_border=true&background=05070f&stroke=7c3aed&ring=22d3ee&fire=f472b6&currStreakLabel=22d3ee&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=c-Murilo&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8" alt="" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=c-Murilo&bg_color=05070f&color=22d3ee&line=7c3aed&point=f472b6&area=true&hide_border=true&custom_title=commits%20dos%20ultimos%20meses" width="96%" alt="" />
 
 </div>
 
@@ -168,16 +159,6 @@ Registro de carros na garagem. CRUD, Sequelize, MVC.
 <div align="center">
 
 <a href="https://github.com/c-Murilo?tab=repositories"><img src="https://img.shields.io/badge/ver_todos_os_repositórios-05070f?style=for-the-badge&logo=github&logoColor=22d3ee" alt="" /></a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-## `📅 atividade`
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=c-Murilo&bg_color=05070f&color=22d3ee&line=7c3aed&point=f472b6&area=true&hide_border=true" width="95%" alt="" />
 
 </div>
 
