@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="./assets/avatar-ascii.svg" width="540" alt="Foto renderizada em ASCII" />
+<img src="./assets/ascii-render.svg" width="540" alt="Foto renderizada em ASCII" />
 
 <br/>
 
@@ -167,7 +167,7 @@ Registro de carros na garagem. CRUD, Sequelize, MVC.
 
 <div align="center">
 
-<a href="https://github.com/c-Murilo?tab=repositories"><img src="https://img.shields.io/badge/ver_todos_os_18_repositórios-05070f?style=for-the-badge&logo=github&logoColor=22d3ee" alt="" /></a>
+<a href="https://github.com/c-Murilo?tab=repositories"><img src="https://img.shields.io/badge/ver_todos_os_repositórios-05070f?style=for-the-badge&logo=github&logoColor=22d3ee" alt="" /></a>
 
 </div>
 
