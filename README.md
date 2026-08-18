@@ -36,9 +36,9 @@ local:     Londrina, Paraná — Brasil
 
 <div align="center">
 
-## `📈 atividade`
+## `Atividade`
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=c-Murilo&bg_color=05070f&color=22d3ee&line=7c3aed&point=f472b6&area=true&hide_border=true&custom_title=commits%20dos%20ultimos%20meses" width="96%" alt="" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=c-Murilo&bg_color=05070f&color=22d3ee&line=7c3aed&point=f472b6&area=true&hide_border=true&custom_title=Commits" width="96%" alt="" />
 
 </div>
 
