@@ -1,20 +1,4 @@
-<div align="center">
 
-<img src="./assets/ascii-render.svg" width="540" alt="Foto renderizada em ASCII" />
-
-<br/><br/>
-
-<a href="https://github.com/c-Murilo?tab=followers"><img src="https://img.shields.io/github/followers/c-Murilo?style=for-the-badge&color=7c3aed&labelColor=05070f&logo=github&logoColor=white" alt="" /></a>
-<img src="https://komarev.com/ghpvc/?username=c-Murilo&style=for-the-badge&color=22d3ee&label=VISITAS" alt="" />
-<img src="https://img.shields.io/badge/Londrina-BR-f472b6?style=for-the-badge&labelColor=05070f&logo=googlemaps&logoColor=white" alt="" />
-
-</div>
-
-<br/>
-
-```console
-$ whoami --verbose
-```
 
 ```yaml
 nome:      Murilo
