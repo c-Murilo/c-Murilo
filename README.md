@@ -1,11 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:22d3ee,100:f472b6&height=180&section=header&text=Murilo&fontSize=70&fontColor=ffffff&fontAlignY=32&desc=dados%20•%20automação%20•%20web&descAlignY=54&descSize=18&animation=fadeIn" width="100%" alt="" />
-
-</div>
-
-<div align="center">
-
 <img src="./assets/ascii-render.svg" width="540" alt="Foto renderizada em ASCII" />
 
 <br/><br/>
