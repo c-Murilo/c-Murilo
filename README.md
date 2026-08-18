@@ -1,20 +1,15 @@
 
 
 ```yaml
-nome:      Murilo
+nome:      Murilo Correia
 local:     Londrina, Paraná — Brasil
-trabalho:  Rocha e Rocha Advogados
-status:    🎯 Focusing
-faço:      transformo processo repetitivo em script,
-           e planilha bagunçada em gráfico que decide coisa.
-foco_2026: dados, automação e web bem feita
 ```
 
 <br/>
 
 <div align="center">
 
-## `⚡ stack`
+## `⚡ Stack`
 
 </div>
 
@@ -28,18 +23,6 @@ foco_2026: dados, automação e web bem feita
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=05070f" alt="" />
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=05070f" alt="" />
 </p>
-
-**Dados & automação**
-
-<p>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=05070f" alt="" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=05070f" alt="" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white&labelColor=05070f" alt="" />
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white&labelColor=05070f" alt="" />
-<img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white&labelColor=05070f" alt="" />
-</p>
-
-**Back-end & ferramentas**
 
 <p>
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=05070f" alt="" />
@@ -60,95 +43,3 @@ foco_2026: dados, automação e web bem feita
 </div>
 
 <br/>
-
-<div align="center">
-
-## `🚀 projetos`
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 Automação
-
-**[robo-emissor-nf](https://github.com/c-Murilo/robo-emissor-nf)** · `Python`
-Robô que emite nota fiscal sozinho. Menos clique manual, mais tempo pra o que importa.
-
-**[resumos-da-lu](https://github.com/c-Murilo/resumos-da-lu)** · `Python`
-Geração automática de resumos.
-
-</td>
-<td width="50%" valign="top">
-
-### 📈 Dados
-
-**[Analise-de-Dados-de-Unicornios](https://github.com/c-Murilo/Analise-de-Dados-de-Unicornios-)** · `Jupyter`
-O que as empresas bilionárias têm em comum?
-
-**[Analise_de_Notas_Estudantes](https://github.com/c-Murilo/Analise_de_Notas_Estudantes)** · `Jupyter`
-Impacto da escolaridade dos pais no desempenho dos alunos.
-
-**[Analise-de-Filmes-Netflix](https://github.com/c-Murilo/Analise-de-Filmes-Netflix)** · `Jupyter`
-Catálogo da Netflix virando insight.
-
-**[Mapa-de-Densidade-de-Vendas](https://github.com/c-Murilo/Mapa-de-Densidade-de-Vendas-por-Cidade-Python)** · `Jupyter`
-Heatmap geográfico de vendas por cidade.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 Web
-
-**[page-maker-buddy-86](https://github.com/c-Murilo/page-maker-buddy-86)** · `TypeScript`
-Construtor de páginas.
-
-**[portfolio-dash](https://github.com/c-Murilo/portfolio-dash)** · `JavaScript`
-Dashboard de portfólio.
-
-**[Portfolio](https://github.com/c-Murilo/Portfolio)** · `CSS`
-Minhas experiências e conhecimentos.
-
-**[To_Do_List](https://github.com/c-Murilo/To_Do_List)** · `JavaScript`
-Lista de anotações.
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Back-end
-
-**[Cadastro_User](https://github.com/c-Murilo/Cadastro_User)** · `JavaScript`
-CRUD com Node + Sequelize, padrão MVC.
-
-**[Car-registration-in-the-garage](https://github.com/c-Murilo/Car-registration-in-the-garage)** · `Node`
-Registro de carros na garagem. CRUD, Sequelize, MVC.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<a href="https://github.com/c-Murilo?tab=repositories"><img src="https://img.shields.io/badge/ver_todos_os_repositórios-05070f?style=for-the-badge&logo=github&logoColor=22d3ee" alt="" /></a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-## `📫 contato`
-
-<a href="mailto:murilocorreia0101@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=05070f" alt="" /></a>
-<a href="https://github.com/c-Murilo"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=05070f" alt="" /></a>
-
-<br/><br/>
-
-<i>“Se dá pra automatizar, não deveria ser feito à mão duas vezes.”</i>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f472b6,50:22d3ee,100:7c3aed&height=120&section=footer" width="100%" alt="" />
-
-</div>
